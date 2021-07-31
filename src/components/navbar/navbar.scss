@@ -1,7 +1,49 @@
 .navbar {
     width: 100%;
-    height: 45px;
-    background-color: #121212F9;
+    height: 70px;
+    background-color: #12345600;
     position: fixed;
     top: 0;
+    color: #FAFAFA;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .button {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+
+            .icons-social {
+                display: flex;
+                align-items: center;
+            }
+
+            .icons-social i {
+                font-size: 2.25em;
+                padding: 10px;
+            }
+
+            .icons-social a {
+                color: #FAFAFA;
+            }
+            
+            .icons-social a svg path{
+                fill: #FAFAFA;
+            }
+        }
+    }
 }
