@@ -8,10 +8,11 @@ export default function Landing() {
 
     useEffect(() => {
         init(textRef.current, {
-        showCursor: true,
+        showCursor: false,
         backDelay: 1200,
-        backSpeed: 90,
-        strings: ["Computer Science", "Mathematics", "Sports Analytics", "Rice University"],
+        backSpeed: 70,
+        typeSpeed: 70,
+        strings: ["a student at Rice University.", "majoring in computer science and mathematics.", "a full stack developer.", "interested in sports analytics.", "a volleyball player and esports enthusiast."],
         });
     }, []);
 
@@ -28,14 +29,19 @@ export default function Landing() {
                 <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet"></link>
                 <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"></link>
             </head>
-            <body>
-                <main>
-                <div class="intro">Howdy, I'm Brian Xu</div>
-                <div class="tagline">
-                    <span ref={textRef}></span>
+            <div className="body">
+                <div className="left"></div>
+                <div className="right">
+                    <main>
+                        <div class="intro1">Howdy, my name is</div>
+                        <div class="intro2">Brian Xu.</div>
+                        <div class="tagline">
+                            <span>I'm </span>
+                            <span ref={textRef}></span>
+                        </div>
+                    </main>
                 </div>
-                </main>
-            </body>
+            </div>
         </div>
     );
 }
