@@ -1,11 +1,13 @@
 .landing {
     height: 100vh;
+    overscroll-behavior: none;
+    overflow: hidden;
 
     html {
         font-family: 'Roboto', sans-serif;
     }
 
-    .body {
+    .columns {
         width: 100%;
         height: 100%;
         display: flex;
@@ -14,10 +16,11 @@
         -webkit-animation: AnimationName 20s ease infinite;
         -moz-animation: AnimationName 20s ease infinite;
         animation: AnimationName 20s ease infinite;
+        font-size: 100%;
     }
 
     .left {
-        width: 25%;
+        width: 20%;
     }
 
     .right {
@@ -74,29 +77,5 @@
         0%{background-position:0% 51%}
         50%{background-position:100% 50%}
         100%{background-position:0% 51%}
-    }
-    
-    @media (min-width: 576px) {
-        html {
-            font-size: 14px;
-        }
-    }
-    
-    @media (min-width: 768px) {
-        html {
-            font-size: 16px;
-        }
-    }
-    
-    @media (min-width: 992px) {
-        html {
-            font-size: 18px;
-        }
-    }
-    
-    @media (min-width: 1200px) {
-        html {
-            font-size: 20px;
-        }
     }
 }

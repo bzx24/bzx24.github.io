@@ -1,0 +1,55 @@
+.about {
+    height: 100vh;
+    overscroll-behavior: none;
+    background-color: #0f1413;
+    color: #FAFAFA;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+
+    .columns {
+        display: flex;
+        background-color: inherit;
+        font-size: inherit;
+        color: inherit;
+
+        .left {
+            width: 27.5%;
+            background-color: 111111;
+        }
+    
+        .right {
+            width: 27.5%;
+            background-color: 222222;
+        }
+
+        .middle {
+            width: 45%;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+            font-size: inherit;
+            font-family: inherit;
+            background-color: 000000;
+        }
+    }
+
+    body {
+        color: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: 4em;
+            margin-top: 12.5%;
+        }
+
+        .info {
+            font-size: 2em;
+            margin-top: 1.25%;
+            text-align: left;
+        }
+    }
+}
+    
