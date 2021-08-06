@@ -11,6 +11,9 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      <Landing />
+      {/*
       <Switch>
         <RouteWithNavBar exact path="/" component={Landing}/>
         <RouteWithNavBar exact path="/about" component={About}/>
@@ -18,6 +21,7 @@ function App() {
         <RouteWithNavBar exact path="/blog" component={Blog}/>
         <Route path="*" component={PageNotFound}></Route>
       </Switch>
+      */}
     </div>
   );
 }
