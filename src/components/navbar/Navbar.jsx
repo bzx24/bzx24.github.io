@@ -1,5 +1,5 @@
 import Button from '@material-ui/core/Button';
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.scss";
 
 export default function Navbar() {
@@ -24,8 +24,8 @@ export default function Navbar() {
                 </div>
                 <div className = "right">
                     <div className = "icons-social">
-                        <a target="_blank" href="https://github.com/bzx24"><i class="fab fa-github"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/bzxu"><i class="fab fa-linkedin"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/bzx24"><i class="fab fa-github"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bzxu"><i class="fab fa-linkedin"></i></a>
                     </div>
                     <div className = "button">
                         <Link to="/resume.pdf" target="_blank" download>

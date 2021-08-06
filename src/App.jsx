@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <RouteWithNavBar exact path="bzx24.github.io/homepage/" component={Landing}/>
+        <RouteWithNavBar exact path="/" component={Landing}/>
         <RouteWithNavBar exact path="/about" component={About}/>
         <RouteWithNavBar exact path="/projects" component={Projects}/>
         <RouteWithNavBar exact path="/blog" component={Blog}/>
