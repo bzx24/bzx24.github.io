@@ -3,24 +3,32 @@ import Landing from "./components/landing/Landing";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Blog from "./components/blog/Blog";
-import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import PageNotFound from "./components/page-not-found/PageNotFound"
+import { Switch, Route } from "react-router-dom";
 
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Landing}/>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/projects" component={Projects}/>
-          <Route exact path="/blog" component={Blog}/>
-        </Switch>
-      </BrowserRouter>
+      <Switch>
+        <RouteWithNavBar exact path="bzx24.github.io/homepage/" component={Landing}/>
+        <RouteWithNavBar exact path="/about" component={About}/>
+        <RouteWithNavBar exact path="/projects" component={Projects}/>
+        <RouteWithNavBar exact path="/blog" component={Blog}/>
+        <Route path="*" component={PageNotFound}></Route>
+      </Switch>
     </div>
   );
+}
+
+function RouteWithNavBar({component:Component, ...rest}) {
+  return (
+     <Route {...rest}>
+      <Navbar />
+      <Component />
+     </Route>
+   );
 }
 
 export default App;
