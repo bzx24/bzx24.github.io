@@ -1,4 +1,4 @@
-import "./landing.scss";
+import "./styles/landing.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 

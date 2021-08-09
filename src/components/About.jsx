@@ -1,4 +1,4 @@
-import "./about.scss";
+import "./styles/about.scss";
 
 export default function About() {
     return (
@@ -14,9 +14,8 @@ export default function About() {
                 <div className="left"></div>
                 <div className="middle">
                     <body>
-                        <div className="title">About Me</div>
+                        <div className="title"></div>
                         <div className="info">
-                            Lorem Ipsum.
                         </div>
                     </body>
                 </div>
