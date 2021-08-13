@@ -11,9 +11,6 @@ export default function Navbar() {
                         <Link to="/" style = {{textDecoration: "none"}}>
                             <Button style = {{color: "#FAFAFA", fontSize: "15px", font: "Roboto"}} variant="text" size="small">Home</Button>
                         </Link>
-                        <Link to="/about" style = {{textDecoration: "none"}}>
-                            <Button style = {{color: "#FAFAFA", fontSize: "15px", font: "Roboto"}} variant="text" size="small">About</Button>
-                        </Link>
                         <Link to="/projects" style = {{textDecoration: "none"}}>
                             <Button style = {{color: "#FAFAFA", fontSize: "15px", font: "Roboto"}} variant="text" size="small">Projects</Button>
                         </Link>

@@ -16,7 +16,7 @@ export default function Landing() {
     }, []);
 
     return (
-        <div className = "landing">
+        <div className = "landing" id="landing">
             <head>
                 <meta charset="utf-8"></meta>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
