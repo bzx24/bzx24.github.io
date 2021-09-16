@@ -19,10 +19,12 @@ export default function About() {
                         </div>
                         <div className="info">
                         Hi, I'm Brian, a sophomore at Rice University studying computer science and mathematics. 
-                        This semester, I'm taking Intro to Program Design, Tools and Models for Data Science, Honors Linear Algebra, and Honors Analysis.
-                        I'm also a TA for COMP 140, Intro to Computational Thinking. 
+                        This semester, I'm taking Intro to Program Design, Tools and Models for Data Science, Honors Linear Algebra, and Intro to Linguistics.
+                        I'm involved with undergraduate research, assisting
+                        <span> <a href="https://profiles.rice.edu/faculty/meng-li" target="_blank" rel="noopener noreferrer" style={{color: "#21b6ae", textDecoration: "none" }}>Dr. Meng Li</a> </span>
+                        on a project where we survey all the latest methods for symbolic regression and develop new alternatives that are more appropriate for modern applications. I'm also a TA for COMP 140, Intro to Computational Thinking. 
                         My professional interests are software development and data science. 
-                        I work with the Rice volleyball team coaching staff on volleyball analytics projects and spent the past summer implementing a calendar integration feature for the Rice Public Art App.
+                        I spent the past summer implementing a calendar integration feature for the Rice Public Art App.
                         In my free time, I read manga and play for the club volleyball and Overwatch team at Rice.
                         </div>
                         <div className="info">
