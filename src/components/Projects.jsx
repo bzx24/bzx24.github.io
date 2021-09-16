@@ -1,4 +1,3 @@
-import Button from '@material-ui/core/Button';
 import Paper from './documents/paper.pdf';
 import Poster from './documents/poster.pdf';
 import "./styles/projects.scss";
