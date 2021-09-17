@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b5f5959.chunk.css",
-    "main.js": "/static/js/main.15189c97.chunk.js",
-    "main.js.map": "/static/js/main.15189c97.chunk.js.map",
+    "main.css": "/static/css/main.837ad428.chunk.css",
+    "main.js": "/static/js/main.f353e686.chunk.js",
+    "main.js.map": "/static/js/main.f353e686.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97628d1c.js",
     "runtime-main.js.map": "/static/js/runtime-main.97628d1c.js.map",
     "static/js/2.178050cd.chunk.js": "/static/js/2.178050cd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d0900415.chunk.js": "/static/js/3.d0900415.chunk.js",
     "static/js/3.d0900415.chunk.js.map": "/static/js/3.d0900415.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4b5f5959.chunk.css.map": "/static/css/main.4b5f5959.chunk.css.map",
+    "static/css/main.837ad428.chunk.css.map": "/static/css/main.837ad428.chunk.css.map",
     "static/js/2.178050cd.chunk.js.LICENSE.txt": "/static/js/2.178050cd.chunk.js.LICENSE.txt",
     "static/media/paper.1f751159.pdf": "/static/media/paper.1f751159.pdf",
     "static/media/poster.71f504ca.pdf": "/static/media/poster.71f504ca.pdf",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.97628d1c.js",
     "static/js/2.178050cd.chunk.js",
-    "static/css/main.4b5f5959.chunk.css",
-    "static/js/main.15189c97.chunk.js"
+    "static/css/main.837ad428.chunk.css",
+    "static/js/main.f353e686.chunk.js"
   ]
 }
