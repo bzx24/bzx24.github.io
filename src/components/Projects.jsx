@@ -26,8 +26,8 @@ export default function Projects() {
                             </div>
                             <div className="buttons">
                                 <span style={{marginRight: "2%"}}>
-                                    <a href="https://github.com/bzx24/markov-volleyball" rel="noopener noreferrer" target="_blank" style={{color: "#21b6ae", textDecoration: "none"}}>
-                                        View GitHub
+                                    <a href="https://apps.apple.com/us/app/rice-public-art/id1546772013" rel="noopener noreferrer" target="_blank" style={{color: "#21b6ae", textDecoration: "none"}}>
+                                        View App
                                     </a>
                                 </span>
                             </div>
