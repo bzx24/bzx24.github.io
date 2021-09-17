@@ -20,10 +20,24 @@ export default function Projects() {
                             <span>Projects</span>
                         </div>
                         <div className="project">
+                            <div className="projectTitle">Rice Public Art App</div>
+                            <div className="projectInfo"> I worked with RiceApps on the Rice Public Art App last summer. I implemented a calendar 
+                            integration feature for upcoming art events and fixed minor UI bugs with one other team member. 
+                            </div>
+                            <div className="buttons">
+                                <span style={{marginRight: "2%"}}>
+                                    <a href="https://github.com/bzx24/markov-volleyball" rel="noopener noreferrer" target="_blank" style={{color: "#21b6ae", textDecoration: "none"}}>
+                                        View GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div className="project">
                             <div className="projectTitle">Markov Volleyball</div>
                             <div className="projectInfo">I designed and implemented a Markov chain model 
                             that models the progression of a volleyball rally to create a better and less 
-                            subjective passing metric. I wrote a paper on this project as part of an independent study.
+                            subjective passing metric. I wrote a paper on this project as part of an independent study I completed last summer.
                             I'm currently in the process of submitting my paper to the MIT Sloan Sports Analytics 
                             Conference Paper Competition.
                             </div>
@@ -40,6 +54,7 @@ export default function Projects() {
                                 </span>
                             </div>
                         </div>
+                        <hr></hr>
                         <div className="project">
                             <div className="projectTitle">Markov Linear Regression</div>
                             <div className="projectInfo">I worked with a classmate to deign and implement a linear regression model that that explains 95% 
