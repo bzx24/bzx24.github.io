@@ -11,7 +11,7 @@ export default function Landing() {
         backDelay: 1200,
         backSpeed: 70,
         typeSpeed: 70,
-        strings: ["a student at Rice University.", "majoring in computer science + math.", "a full stack developer.", "interested in sports analytics.", "a volleyball and esports enthusiast."],
+        strings: ["a student at Rice University.", "majoring in computer science + math.", "interested in sports analytics.", "a volleyball and esports enthusiast."],
         });
     }, []);
 
