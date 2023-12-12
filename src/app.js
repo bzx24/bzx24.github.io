@@ -1,8 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     var clockElement = document.getElementById("clock");
-    console.log(clockElement);
+    
+    let options = {
+        timeZone: 'CST',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+    },
+    formatter = new Intl.DateTimeFormat([], options);
+
     function updateClock(clock) {
-        const time = new Date().toLocaleTimeString().toLowerCase()
+        const time = formatter.format(new Date()).toLowerCase()
         clock.innerHTML = `${time} · Houston, Texas`;
     }
 
