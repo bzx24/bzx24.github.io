@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var clockElement = document.getElementById("clock");
     
     let options = {
-        timeZone: 'CST',
+        timeZone: 'EST',
         hour: 'numeric',
         minute: 'numeric',
         second: 'numeric',
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateClock(clock) {
         const time = formatter.format(new Date()).toLowerCase()
-        clock.innerHTML = `${time} · Houston, Texas`;
+        clock.innerHTML = `${time} · New York City, New York`;
     }
 
     setInterval(function () {
